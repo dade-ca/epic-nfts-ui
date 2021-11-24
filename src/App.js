@@ -4,10 +4,10 @@ import twitterLogo from "./assets/twitter-logo.svg";
 import "./styles/App.css";
 import epicNft from "./utils/EpicNFT.json";
 
-const TWITTER_HANDLE = "_buildspace";
+const TWITTER_HANDLE = "hackerdade";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
-const OPENSEA_LINK = "";
-const TOTAL_MINT_COUNT = 50;
+// const OPENSEA_LINK = "";
+// const TOTAL_MINT_COUNT = 50;
 
 // I moved the contract address to the top for easy access.
 const CONTRACT_ADDRESS = "0x23a3ae847C941c8460ad41e0E8C40493A12073FB";
@@ -179,7 +179,7 @@ const App = () => {
             href={TWITTER_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`built on @${TWITTER_HANDLE}`}</a>
+          >{`built by @${TWITTER_HANDLE}`}</a>
         </div>
       </div>
     </div>
